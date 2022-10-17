@@ -32,8 +32,7 @@ automations:
       - action: set-required-reviewers@v1
         args:
           - reviewer: 2
-          comment: |
-            Minimum 2 approvals are needed
+          comment: "Minimum 2 approvals are needed"
 
   safe_changes:
     # The `if` key has a list of conditions, each condition is specified as a Jinja expression
