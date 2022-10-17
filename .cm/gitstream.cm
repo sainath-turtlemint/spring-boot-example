@@ -25,11 +25,6 @@ automations:
     if:
       - true
     run:
-      - action: set-required-reviewers@v1
-        args:
-          - reviewer: 2
-        comment: |
-          Minimum 2 approvals are needed
       - action : add-label@v1
         args:
           label: "{{ calc.etr }} min review"
