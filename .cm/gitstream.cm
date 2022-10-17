@@ -29,6 +29,11 @@ automations:
         args:
           label: "{{ calc.etr }} min review"
           color: {{ 'E94637' if (calc.etr >= 20) else ('FBBD10' if (calc.etr >= 5) else '36A853') }}
+      - action: set-required-reviewers@v1
+        args:
+          - reviewer: 2
+          comment: |
+            Minimum 2 approvals are needed
 
   safe_changes:
     # The `if` key has a list of conditions, each condition is specified as a Jinja expression
