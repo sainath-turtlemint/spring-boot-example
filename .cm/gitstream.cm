@@ -36,7 +36,15 @@ automations:
         - action: add-reviewers@v1
           args:
             team_reviewers: {{ pr.author_teams | first }}
-
+  no_tests:
+    if:
+      - {{ files | match(regex=r/(test|spec)/) | nope }}
+    run: 
+      - action: add-label@v1
+        args:
+          label: 'missing-tests'
+          color: '#E94637'
+          
   safe_changes:
     # The `if` key has a list of conditions, each condition is specified as a Jinja expression
     # in a double curly braces. Expressions are evaluated by gitStream on a PR when triggered.
