@@ -3,7 +3,7 @@
 		{
 		        "pattern": "[A-Z]{2,}-\\d+",
 		        "flags": ["i"],
-		        "message": "You need a JIRA ticket in your description"
+		        "message": "You need a valid JIRA ticket in your PR title"
 		}
 	]
 }
