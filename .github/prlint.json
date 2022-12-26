@@ -1,6 +1,11 @@
 {
 	"title": [
 		{
+		        "pattern": "[A-Z]{2,}-\d+",
+		        "flags": ["i"],
+		        "message": "You need a JIRA ticket in your description"
+		},
+		{
 			"pattern": "^[A-Z][a-z]+?\\s",
 			"message": "Your title must start with a capital letter, and a real word, e.g. 'Add GO support'"
 		},
