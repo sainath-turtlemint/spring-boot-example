@@ -1,7 +1,7 @@
 {
 	"title": [
 		{
-		        "pattern": "[A-Z]{2,}-\d+",
+		        "pattern": "[A-Z]{2,}-\\d+",
 		        "flags": ["i"],
 		        "message": "You need a JIRA ticket in your description"
 		},
