@@ -4,10 +4,6 @@
 		        "pattern": "[A-Z]{2,}-\\d+",
 		        "flags": ["i"],
 		        "message": "You need a JIRA ticket in your description"
-		},
-		{
-			"pattern": "^\\S+\\s+\\S+\\s+\\S+",
-			"message": "Your title must have at least three words"
 		}
 	]
 }
