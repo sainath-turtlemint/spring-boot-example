@@ -20,7 +20,7 @@ approval_rules:
     if:
       only_changed_files:
         paths:
-          - "staging/.*"
+          - "src/.*"
     requires:
       count: 0
       
