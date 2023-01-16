@@ -1,7 +1,4 @@
 # the high level policy
-github:
-  # The GitHub App ID
-  appId: 275374
 policy:
   approval:
     - or:
