@@ -6,6 +6,7 @@ public class Main {
     System.out.println("Creating a PR to test gitStream");
 
     System.out.println("Creating a PR to test gitStream");
+    System.out.println("Creating a PR to test gitStream");
 
     System.out.println("Hello world!");
   }
