@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
     - name: PR Validator
-      uses: sainath-turtlemint/pr-validator@v1.7
+      uses: sainath-turtlemint/pr-validator@v1.8
     - name: Checkout project sources
       uses: actions/checkout@v2
     - name: Setup Gradle
