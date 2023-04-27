@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
     - name: PR Validator
-      uses: santomegonzalo/pr-checker-github-actions@v1.2.4
+      uses: santomegonzalo/pr-checker-github-action@v1.2.4
       with:
         gh_token: ${{ secrets.GITHUB_TOKEN }}
         jira_title_regex: ^\[(([A-Z][A-Z0-9]+-[0-9]+)|NOJIRA)\]
