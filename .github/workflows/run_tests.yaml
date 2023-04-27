@@ -1,7 +1,6 @@
 name: Build/Test Gradle project
 
-on:
-  push:
+on: [push]
 
 jobs:
   build-gradle-project:
